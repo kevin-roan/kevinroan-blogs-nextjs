@@ -1,7 +1,54 @@
 ---
 import Search from "../components/Search.astro";
+import BlogCard from "../components/BlogCard.astro";
+import Footer from "../components/Footer.astro";
+import CategorySwipe from "../components/CategorySwipe.astro";
 ---
 
-<section>
-  <Search />
-</section>
+<div>
+  <div class="flex justify-center">
+    <Search />
+  </div>
+  <CategorySwipe />
+  <div class="bg-[#FBFBFB] p-3">
+    <BlogCard
+      title="How I Designed My Blog Website and  planned architecture. "
+      imgUrl="https://ludangupta.com/"
+      shortDescription="Tristique, duat ante sit rhoncus dignissim, tristique. Mus praesent vel tincidunt a magnis."
+      publishedDate="12/Jan/2024"
+    />
+    <BlogCard
+      title="How I Designed My Blog Website and  planned architecture. "
+      imgUrl="https://ludangupta.com/"
+      shortDescription="Tristique, dui velit diam magna , at ante sit rhoncus dignissim, tristique. Mus praesent vel tincidunt a magnis."
+      publishedDate="12 Jan 2024"
+    />
+    <BlogCard
+      title="How I Designed My Blog Website and  planned architecture. "
+      imgUrl="https://ludangupta.com/"
+      shortDescription="Tristique, dui velit magnis arcu tempor, at ante sit rhoncus dignissim, tristique. Mus praesent vel tincidunt a magnis."
+      publishedDate="12 Jan 2024"
+    />
+    <BlogCard
+      title="How I Designed My Blog Website and  planned architecture. "
+      imgUrl="https://ludangupta.com/"
+      shortDescription="Tristique, dui velit magnis arcu tempor, at ante sit rhoncus dignissim, tristique. Mus praesent vel tincidunt a magnis."
+      publishedDate="12 Jan 2024"
+    />
+
+    <BlogCard
+      title="How I Designed My Blog Website and  planned architecture. "
+      imgUrl="https://ludangupta.com/"
+      shortDescription="Tristique, dui velit magnis arcu tempor, at ante sit rhoncus dignissim, tristique. Mus praesent vel tincidunt a magnis."
+      publishedDate="12 Jan 2024"
+    />
+
+    <BlogCard
+      title="How I Designed My Blog Website and  planned architecture. "
+      imgUrl="https://ludangupta.com/"
+      shortDescription="Tristique, dui velit magnis arcu tempor, at ante sit rhoncus dignissim, tristique. Mus praesent vel tincidunt a magnis."
+      publishedDate="12 Jan 2024"
+    />
+  </div>
+  <Footer />
+</div>
