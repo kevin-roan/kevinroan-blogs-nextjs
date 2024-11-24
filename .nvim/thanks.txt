@@ -1,0 +1,2 @@
+Astrojs on neovim
+https://javascript.plainenglish.io/neovim-setup-for-astrojs-projects-ef8c405765ab
