@@ -1,2 +1,6 @@
-Astrojs on neovim
+- Astrojs LSP Setup (Neovim)
 https://javascript.plainenglish.io/neovim-setup-for-astrojs-projects-ef8c405765ab
+
+Prettier for astrojs (Project Setup)
+https://github.com/withastro/prettier-plugin-astro
+
